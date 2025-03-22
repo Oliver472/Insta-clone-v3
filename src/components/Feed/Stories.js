@@ -1,33 +1,42 @@
-import React, { useEffect, useState } from 'react';
-import faker from '@faker-js/faker';
+import React, {useEffect, useState} from 'react';
+import {faker} from '@faker-js/faker';
 import Story from './Story';
+
 function Stories() {
 
     const [suggestions, setSuggestions] = useState([])
 
-  useEffect(() => {
-    const suggestions = [...Array(20)].map((_, i) => ({
-        ...faker.helpers.contextualCard(),
-        id: i,
-    }))
+    function getUser() {
+        const user = {
+            username: faker.person.firstName(),
+            avatar: faker.image.avatar(),
+            id: faker.datatype.uuid()
+        }
+        return user
+    }
 
-    setSuggestions(suggestions);
+    function getSuggestions() {
+        const suggestions = [...Array(20)].map(() => getUser())
+        setSuggestions(suggestions)
+    }
 
-  }, []);
-  return (
-  <div className='flex space-x-3 p-6 mt-0 bg-white sm:mt-8 border-gray-200
-     border rounded-sm overflow-x-scroll scrollbar-thin scrollbar-thumb-black'>
-       
-       
-        {suggestions.map(profile => (
-            <Story 
-            key={profile.id} 
-            img={profile.avatar}
-            username={profile.username}/>
-        ))}
+    useEffect(() => {
+      getSuggestions();
+    }, []);
 
-    </div>)
-  
+
+    return (
+        <div className='flex space-x-3 px-2 py-6 mt-0 bg-black sm:mt-8
+      rounded-sm overflow-x-scroll scrollbar-thin scrollbar-thumb-black'>
+            {suggestions.map(profile => (
+                <Story
+                    key={profile.id}
+                    img={profile.avatar}
+                    userName={profile.username}/>
+            ))}
+
+        </div>)
+
 }
 
 export default Stories;

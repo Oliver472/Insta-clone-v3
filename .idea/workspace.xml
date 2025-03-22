@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1c3875a-a68f-4aff-a64d-53198a29bb80" name="Changes" comment="fixed the closing of searchBar">
+      <change afterPath="$PROJECT_DIR$/src/components/Admin/ReportsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/actions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/ReactHookFormUtils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/apiCalls/postFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/apiCalls/postFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atoms/modalAtom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/atoms/modalAtom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Account/AccountPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Account/AccountPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Account/UserInformation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Account/UserInformation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Post/ActionList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/ActionList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Post/PostHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/PostHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Post/PostModal/ModalActionList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/PostModal/ModalActionList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Post/PostModal/ModalCommentForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/PostModal/ModalCommentForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Post/PostModal/PostModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Post/PostModal/PostModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Posts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Posts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/ReportModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/ReportModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Feed/Stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feed/Stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/MenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/ModalUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/ModalUpload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav/SearchBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SideBar/Suggestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideBar/Suggestions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThreadsFeed/AddThreadModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThreadsFeed/AddThreadModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThreadsFeed/ThreadAddComment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThreadsFeed/ThreadAddComment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/apiCalls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/apiCalls.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/report.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/report.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/table.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/fix-node-modules" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;olivermrovcak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="744c0ef0-62a8-455b-abc6-ab4cd6144049" />
+        <option name="url" value="https://github.com/olivermrovcak/Insta-clone-v3.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2XGjIvlNsoDWmL9549Xk2Kz8ieQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olivermrovcak/Desktop/aaa/REACT/INSTA/src/utils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/olivermrovcak/Desktop/aaa/REACT/INSTA/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/firebase" />
+      <recent name="$PROJECT_DIR$/cloudfunctions" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/functions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/functions/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build:watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1c3875a-a68f-4aff-a64d-53198a29bb80" name="Changes" comment="refactor" />
+      <created>1698262234285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698262234285</updated>
+      <workItem from="1698262235614" duration="1503000" />
+      <workItem from="1698263743275" duration="192000" />
+      <workItem from="1698263936989" duration="154000" />
+      <workItem from="1698264112956" duration="4413000" />
+      <workItem from="1698671610105" duration="799000" />
+      <workItem from="1699869154682" duration="698000" />
+      <workItem from="1701346038125" duration="26000" />
+      <workItem from="1701853786479" duration="120000" />
+      <workItem from="1701854070242" duration="119000" />
+      <workItem from="1701854556235" duration="13000" />
+      <workItem from="1701854607807" duration="1000" />
+      <workItem from="1701854757756" duration="8362000" />
+      <workItem from="1701867925051" duration="4864000" />
+      <workItem from="1701874644031" duration="706000" />
+      <workItem from="1701875362072" duration="2077000" />
+      <workItem from="1701877444065" duration="9935000" />
+      <workItem from="1701892646380" duration="17427000" />
+      <workItem from="1701954233471" duration="57000" />
+      <workItem from="1702298609960" duration="3457000" />
+      <workItem from="1702467179104" duration="1074000" />
+      <workItem from="1702468675022" duration="129000" />
+      <workItem from="1702490898095" duration="4726000" />
+      <workItem from="1702638517661" duration="2395000" />
+      <workItem from="1702722343147" duration="13213000" />
+      <workItem from="1702823604703" duration="22303000" />
+      <workItem from="1702978790958" duration="8843000" />
+      <workItem from="1703005146681" duration="7205000" />
+      <workItem from="1703498288422" duration="364000" />
+      <workItem from="1703501564157" duration="6639000" />
+      <workItem from="1703528177421" duration="4946000" />
+      <workItem from="1703691024468" duration="8664000" />
+      <workItem from="1703764186256" duration="2681000" />
+      <workItem from="1703853615179" duration="224000" />
+      <workItem from="1703866590204" duration="13944000" />
+      <workItem from="1704029888794" duration="432000" />
+      <workItem from="1704133985577" duration="9281000" />
+      <workItem from="1705065349433" duration="10875000" />
+      <workItem from="1705143118486" duration="5633000" />
+      <workItem from="1705179845477" duration="176000" />
+      <workItem from="1705180039281" duration="5203000" />
+      <workItem from="1705238672245" duration="5590000" />
+      <workItem from="1705252354751" duration="14531000" />
+      <workItem from="1705315712667" duration="18849000" />
+      <workItem from="1705578484355" duration="11922000" />
+      <workItem from="1705680004886" duration="4378000" />
+      <workItem from="1705700317223" duration="3198000" />
+      <workItem from="1705737925777" duration="379000" />
+      <workItem from="1705765665778" duration="14825000" />
+      <workItem from="1705854240280" duration="10496000" />
+    </task>
+    <task id="LOCAL-00001" summary="add git ignore">
+      <option name="closed" value="true" />
+      <created>1698264160400</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698264160400</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix">
+      <option name="closed" value="true" />
+      <created>1698264327014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698264327014</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix">
+      <option name="closed" value="true" />
+      <created>1698264381911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698264381911</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix">
+      <option name="closed" value="true" />
+      <created>1698264442573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698264442573</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix">
+      <option name="closed" value="true" />
+      <created>1701874409816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701874409816</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix">
+      <option name="closed" value="true" />
+      <created>1701878328883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701878328883</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added everything lol">
+      <option name="closed" value="true" />
+      <created>1701910081405</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701910081405</updated>
+    </task>
+    <task id="LOCAL-00008" summary="refactored threads">
+      <option name="closed" value="true" />
+      <created>1703881220690</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703881220690</updated>
+    </task>
+    <task id="LOCAL-00009" summary="moved getting thread data from frontend to cloud function, same with user for thread and repost">
+      <option name="closed" value="true" />
+      <created>1705070695957</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705070695957</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added tanstack-table and query from recent projects">
+      <option name="closed" value="true" />
+      <created>1705182049485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705182049485</updated>
+    </task>
+    <task id="LOCAL-00011" summary="refactored the table for app use">
+      <option name="closed" value="true" />
+      <created>1705185219624</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1705185219624</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added searching">
+      <option name="closed" value="true" />
+      <created>1705587383348</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705587383348</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixed the closing of searchBar">
+      <option name="closed" value="true" />
+      <created>1705587538967</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705587538967</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feature/typescript" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/fix-node-modules" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <MESSAGE value="add git ignore" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="added everything lol" />
+    <MESSAGE value="refactored threads" />
+    <MESSAGE value="moved getting thread data from frontend to cloud function, same with user for thread and repost" />
+    <MESSAGE value="added tanstack-table and query from recent projects" />
+    <MESSAGE value="refactored the table for app use" />
+    <MESSAGE value="added searching" />
+    <MESSAGE value="fixed the closing of searchBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the closing of searchBar" />
+  </component>
+</project>
